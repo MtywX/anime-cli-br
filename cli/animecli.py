@@ -127,7 +127,11 @@ def gather_episodes(anime):
         current_episode = int(option)
         last_episode = list(episodes_json)[-1]
 
-        return episodes_json[current_episode]
+        if current_episode in episodes_json:
+            return episodes_json[current_episode]
+        else:
+            print(Fore.RED + "Episódio não existe" + Fore.RESET)
+            exit()
     else:
         print(Fore.RED + "Opção inválida" + Fore.RESET)
         exit()
