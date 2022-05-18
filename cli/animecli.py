@@ -65,7 +65,7 @@ def search_anime(anime, page = 1):
 
     print(
         anime_view,
-        Fore.GREEN + "\nActual Page: " + Fore.WHITE + str(page),
+        Fore.GREEN + "\nPágina Atual: " + Fore.WHITE + str(page),
         Fore.YELLOW + "\n\nAções: p [Próxima Página], a [Página Anterior], números [Anime]" + Fore.RESET
     )
 
@@ -82,7 +82,7 @@ def search_anime(anime, page = 1):
         option = int(option)
         return anime_json[option]
     else:
-        print(Fore.RED + "The option you choose is not valid" + Fore.RESET)
+        print(Fore.RED + "Opção inválida" + Fore.RESET)
         exit()
 
 def gather_episodes(anime):
@@ -129,7 +129,7 @@ def gather_episodes(anime):
 
         return episodes_json[current_episode]
     else:
-        print(Fore.RED + "Opção invalida" + Fore.RESET)
+        print(Fore.RED + "Opção inválida" + Fore.RESET)
         exit()
 
 def play_video(episode_result):
@@ -198,7 +198,7 @@ def play_video(episode_result):
     global episodes_json
 
     print(
-        Fore.GREEN + "Episodio Atual: " + Fore.WHITE + str(current_episode),
+        Fore.GREEN + "Episódio Atual: " + Fore.WHITE + str(current_episode),
         Fore.YELLOW + "\n\nAções: p [Próximo Episódio], a [Episódio anterior], s [Selecionar Episódio], r [Replay], q [Sair]" + Fore.RESET
     )
 
