@@ -162,7 +162,7 @@ def play_video(episode_result):
             else:
                 os.system(f"xdg-open {external_player['src']}")
         else:
-            print(Fore.RED + "Você escolheu não dar play no vídeo no navegador." + Fore.RESET)
+            print(Fore.RED + "\nVocê escolheu não dar play no vídeo" + Fore.RESET)
     else:
         light_html = requests.get(
             url=light_player_backend['data-video-src'],
