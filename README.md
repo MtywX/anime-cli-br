@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/61241512/169169317-6207a76f-b071-4237-
 
 ### Python:
 
-Para instalar o Anime cli br você precisa do python com a versão >= 3.9 e o módulo PIP no path do terminal.
+Para instalar o Anime cli br você precisa do python com a versão >= 3.9 e o módulo pip no path do terminal.
 
 [Python 3.9](https://www.python.org/downloads/release/python-3912/)
 
