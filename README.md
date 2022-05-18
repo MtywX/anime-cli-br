@@ -1,7 +1,6 @@
 # Anime cli br
 
-O anime cli é uma interface no terminal em que facilita o uso para assistir animes de código aberto.
-Esse projeto não é feito para ser um projeto grande, pois você pode ir lá e assistir no site.
+O anime cli é uma interface no terminal em que facilita o uso para assistir animes de código aberto. Esse projeto não é feito para ser um projeto grande, pois você pode ir lá e assistir no site.
 
 **Source de vídeos: [AnimeFire](https://animefire.net)**
 **Author: TheLowRam**
