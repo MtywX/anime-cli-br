@@ -15,13 +15,14 @@ https://user-images.githubusercontent.com/61241512/169169317-6207a76f-b071-4237-
   - [Showcase](#showcase)
   - [Tabela de Conteúdo](#tabela-de-conteúdo)
   - [Instalar](#instalar)
-    - [Python:](#python)
-    - [Windows e Linux:](#windows-e-linux)
+    - [Python](#python)
+    - [VLC Player](#vlc-player)
+    - [Windows e Linux](#windows-e-linux)
   - [Dependências](#dependências)
 
 ## Instalar
 
-### Python:
+### Python
 
 Para instalar o Anime cli br você precisa do python com a versão >= 3.9 e o módulo pip no path do terminal.
 
@@ -29,7 +30,15 @@ Para instalar o Anime cli br você precisa do python com a versão >= 3.9 e o m�
 
 Uma nota importante é que para rodar as cores igual a da showcase você precisa do suporte para ANSI code no cmd
 
-### Windows e Linux:
+### VLC Player
+
+O "vlc" é um player necessário para rodar os vídeos, você pode encontra-lo nesse link abaixo
+
+[Vlc](https://www.videolan.org/vlc/)
+
+Caso você não queira ele é so modificar o script
+
+### Windows e Linux
 
 Para instalar é so seguir esses passos bem simples no terminal
 ```sh
