@@ -1,8 +1,9 @@
 # Anime cli br
 
-O anime cli é uma interface no terminal em que facilita o uso para assistir animes de código aberto. Esse projeto não é feito para ser um projeto grande, pois você pode ir lá e assistir no site.
+O anime cli é uma interface no terminal em que facilita o uso para assistir animes de código aberto. Esse script não é feito para ser um projeto grande.
 
 **Source de vídeos: [AnimeFire](https://animefire.net)**<br>
+**Versão: 1.0.0**<br>
 **Author: TheLowRam**
 
 ## Showcase
@@ -14,40 +15,42 @@ https://user-images.githubusercontent.com/61241512/169169317-6207a76f-b071-4237-
 - [Anime cli br](#anime-cli-br)
   - [Showcase](#showcase)
   - [Tabela de Conteúdo](#tabela-de-conteúdo)
-  - [Instalar](#instalar)
+  - [Como Instalar](#como-instalar)
     - [Python](#python)
-    - [VLC Player](#vlc-player)
-    - [Windows e Linux](#windows-e-linux)
+    - [VLC](#vlc)
+    - [Windows & Linux](#windows--linux)
   - [Dependências](#dependências)
 
-## Instalar
+## Como Instalar
 
 ### Python
 
-Para instalar o Anime cli br você precisa do python com a versão >= 3.9 e o módulo pip no path do terminal.
+Instalando o python, é preciso da versão >= 3.9 e o PIP no path do terminal.
 
-[Python 3.9](https://www.python.org/downloads/release/python-3912/)
+Baixe ele nesse link abaixo:
 
-Uma nota importante é que para rodar as cores igual a da showcase você precisa do suporte para ANSI code no cmd
+[Python (3.9.12)](https://www.python.org/downloads/release/python-3912/)
 
-### VLC Player
+### VLC
 
-O "vlc" é um player necessário para rodar os vídeos, você pode encontra-lo nesse link abaixo
+O "vlc" é um player usado para rodar os vídeos, pode baixar nesse link abaixo:
 
-[Vlc](https://www.videolan.org/vlc/)
+[VLC Media Player](https://www.videolan.org/vlc/)
 
-Caso você não queira ele é so modificar o script
+*Caso você não queira ele é só modificar o script*
 
-### Windows e Linux
+### Windows & Linux
 
-Para instalar é so seguir esses passos bem simples no terminal
+Depois de ter instalado os outros agora basta seguir esses simples passos
 ```sh
 git clone https://github.com/iiKylerX/anime-cli-br
 cd anime-cli-br
 pip install .
 ```
 
-Ele ainda não foi testado no MacOS, então sinta-se livre para testar-lo.
+Ainda não foi testado no MacOS e no Android, então sinta-se livre para testá-lo.
+
+**Uma nota é que para ter as cores no cmd igual a da showcase é necessário o suporte de ANSI Colors no cmd**
 
 ## Dependências
 

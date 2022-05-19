@@ -1,11 +1,10 @@
 """
     Anime cli br
-    Uma command line interface com o objetivo de assistir anime no cmd
-    Esse projeto não é feito para ser um projeto grande, pois você pode ir lá e assistir no site, então fica por isso mesmo.
+    Um script com o objetivo de assistir anime no cmd
 
     Eu não vou criar uma documentação do script porque não tenho motivos para isso :>
 
-    Source original de vídeo: AnimeFire
+    Source de vídeo: AnimeFire
     Author: TheLowRam
 """
 
@@ -82,7 +81,7 @@ def search_anime(anime, page = 1):
         option = int(option)
         return anime_json[option]
     else:
-        print(Fore.RED + "Opção inválida" + Fore.RESET)
+        print(Fore.RED + "\nOpção inválida" + Fore.RESET)
         exit()
 
 def gather_episodes(anime):
@@ -130,10 +129,10 @@ def gather_episodes(anime):
         if current_episode in episodes_json:
             return episodes_json[current_episode]
         else:
-            print(Fore.RED + "Episódio não existe" + Fore.RESET)
+            print(Fore.RED + "\nEpisódio não existe" + Fore.RESET)
             exit()
     else:
-        print(Fore.RED + "Opção inválida" + Fore.RESET)
+        print(Fore.RED + "\nOpção inválida" + Fore.RESET)
         exit()
 
 def play_video(episode_result):
@@ -193,7 +192,7 @@ def play_video(episode_result):
         if option in light_json:
             light_player = subprocess.Popen(f"{player} {light_json[option]}")
         else:
-            print(Fore.RED + "Opção invalida" + Fore.RESET)
+            print(Fore.RED + "\nOpção invalida" + Fore.RESET)
             exit()
 
     clear()
@@ -230,7 +229,7 @@ def play_video(episode_result):
     elif option == 'q':
         exit()
     else:
-        print(Fore.RED + "Opção invalida" + Fore.RESET)
+        print(Fore.RED + "\nOpção invalida" + Fore.RESET)
         exit()
 
 @click.command()
