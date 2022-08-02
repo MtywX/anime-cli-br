@@ -1,3 +1,5 @@
+Not working anymore, and I won't fix it, because you guys seems to don't be liking it...
+
 # Anime cli br
 
 O anime cli é uma interface no terminal em que facilita o uso para assistir animes de código aberto. Esse script não é feito para ser um projeto grande.
