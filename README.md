@@ -1,4 +1,6 @@
-Not working anymore, and I won't fix it, because you guys seems to don't be liking it...
+# Note
+
+I'll fix it very soon, probably i'll change the website
 
 # Anime cli br
 
