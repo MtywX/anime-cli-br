@@ -18,13 +18,17 @@ import subprocess
 from bs4 import BeautifulSoup
 from colorama import Fore
 
+# Vars
+
 base_url="https://animefire.net"
-player="vlc"
+player="vlc" # Change if you want the main player
+
+# Clear function, it switchs between the os
 
 def clear():
-    if os.name == "nt":
+    if os.name == "nt": # Windows
         os.system("cls")
-    else:
+    else: # Others
         os.system("clear")
 
 def search_anime(anime, page = 1):
@@ -190,7 +194,7 @@ def play_video(episode_result):
         option = input(Fore.CYAN + "\nEscolha a qualidade: " + Fore.RESET)
 
         if option in light_json:
-            light_player = subprocess.Popen(f"{player} {light_json[option]}")
+            light_player = subprocess.Popen(f"{player} {light_json[option]}", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         else:
             print(Fore.RED + "\nOpção invalida" + Fore.RESET)
             exit()
@@ -234,6 +238,7 @@ def play_video(episode_result):
 
 @click.command()
 def main():
+
     clear()
 
     anime = input(Fore.CYAN + "Procurar pelo o anime: " + Fore.RESET)
@@ -246,3 +251,6 @@ def main():
     episode_result = gather_episodes(anime_result)
 
     play_video(episode_result)
+
+if __name__ == "__main__":
+    main()

@@ -7,7 +7,7 @@ I'll fix it very soon, probably i'll change the website
 O anime cli é uma interface no terminal em que facilita o uso para assistir animes de código aberto. Esse script não é feito para ser um projeto grande.
 
 **Source de vídeos: [AnimeFire](https://animefire.net)**<br>
-**Versão: 1.0.0**<br>
+**Versão: 1.2.0**<br>
 **Author: TheLowRam**
 
 ## Showcase
