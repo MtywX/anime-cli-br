@@ -1,6 +1,12 @@
-# Note
+# Nota
 
-I'll fix it very soon, probably i'll change the website
+Coisas para adicionar no anime-cli-br:
+
+- Historico
+- Download
+- Fetch Update
+- Checar Versão
+- Botão de voltar a pesquisar enquanto o vídeo estiver tocando
 
 # Anime cli br
 
