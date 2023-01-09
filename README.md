@@ -2,7 +2,7 @@
 
 Coisas para adicionar no anime-cli-br:
 
-- Historico
+- Histórico
 - Download
 - Fetch Update
 - Checar Versão
@@ -53,7 +53,7 @@ O "vlc" é um player usado para rodar os vídeos, pode baixar nesse link abaixo:
 
 Depois de ter instalado os outros agora basta seguir esses simples passos
 ```sh
-git clone https://github.com/iiKylerX/anime-cli-br
+git clone https://github.com/MtywX/anime-cli-br
 cd anime-cli-br
 pip install .
 ```
